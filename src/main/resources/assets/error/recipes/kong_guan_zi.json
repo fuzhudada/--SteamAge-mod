@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "A"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "error:huo_ou"
+        }
+    },
+    
+    "result":
+    {
+        "item": "error:kong_guan_zi",
+        "count": 1
+    }
+}

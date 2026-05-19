@@ -1,0 +1,9 @@
+{
+  "parent": "error:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "error:blocks/loom_bottom",
+    "front": "error:blocks/loom_front",
+    "side": "error:blocks/loom_side",
+    "top": "error:blocks/loom_top"
+  }
+}

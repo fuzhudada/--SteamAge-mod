@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "facing=north,half=lower,variant=sunflower": { "model": "error:wind_flower_bottom", "y": 90 },
+        "facing=north,half=upper,variant=sunflower": { "model": "error:wind_flower_top", "y": 90 },
+        "facing=south,half=lower,variant=sunflower": { "model": "error:wind_flower_bottom", "y": 270 },
+        "facing=south,half=upper,variant=sunflower": { "model": "error:wind_flower_top", "y": 270 },
+        "facing=west,half=lower,variant=sunflower":  { "model": "error:wind_flower_bottom" },
+        "facing=west,half=upper,variant=sunflower":  { "model": "error:wind_flower_top" },
+        "facing=east,half=lower,variant=sunflower":  { "model": "error:wind_flower_bottom", "y": 180 },
+        "facing=east,half=upper,variant=sunflower":  { "model": "error:wind_flower_top", "y": 180 }
+    }
+}

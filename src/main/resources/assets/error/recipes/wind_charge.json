@@ -1,0 +1,12 @@
+{
+    "result": {
+        "item": "error:wind_charge",
+        "count": 2
+    },
+    "ingredients": [
+        [
+            { "item": "error:breeze_rod" }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

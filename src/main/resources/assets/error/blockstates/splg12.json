@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "axis=y":    { "model": "error:splg12" },
+        "axis=z":     { "model": "error:splg12", "x": 90 },
+        "axis=x":     { "model": "error:splg12", "x": 90, "y": 90 },
+        "axis=none":   { "model": "error:splg12" }
+    }
+}

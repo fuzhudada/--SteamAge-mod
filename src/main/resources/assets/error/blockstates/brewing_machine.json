@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "error:brewing_machine" },
+        "facing=south": { "model": "error:brewing_machine", "y": 180 },
+        "facing=west":  { "model": "error:brewing_machine", "y": 270 },
+        "facing=east":  { "model": "error:brewing_machine", "y": 90 }
+    }
+}

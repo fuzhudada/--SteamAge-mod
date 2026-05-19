@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "BDB",
+        "CCC"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "error:huo_ou"
+        },
+        "B":
+        {
+            "item": "minecraft:iron_block"
+        },
+        "C":
+        {
+            "item": "minecraft:gold_block"
+        },
+        "D":
+        {
+            "item": "error:kong_guan_zi"
+        }
+    },
+    
+    "result":
+    {
+        "item": "error:brewing_machine",
+        "count": 1
+    }
+}

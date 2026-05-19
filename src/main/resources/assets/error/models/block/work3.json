@@ -1,0 +1,10 @@
+{
+  "parent": "error:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "error:blocks/bee_nest_bottom",
+    "front": "error:blocks/bee_nest_front",
+    "particle": "error:blocks/bee_nest_side",
+    "side": "error:blocks/bee_nest_side",
+    "top": "error:blocks/bee_nest_top"
+  }
+}

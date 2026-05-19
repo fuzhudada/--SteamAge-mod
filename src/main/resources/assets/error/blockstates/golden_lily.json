@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "facing=north,flower=true": { "model": "error:golden_lily_with_flower", "y": 90 },
+        "facing=south,flower=true": { "model": "error:golden_lily_with_flower", "y": 270 },
+        "facing=west,flower=true":  { "model": "error:golden_lily_with_flower" },
+        "facing=east,flower=true":  { "model": "error:golden_lily_with_flower", "y": 180 },
+        "facing=north,flower=false": { "model": "error:golden_lily", "y": 90 },
+        "facing=south,flower=false": { "model": "error:golden_lily", "y": 270 },
+        "facing=west,flower=false":  { "model": "error:golden_lily" },
+        "facing=east,flower=false":  { "model": "error:golden_lily", "y": 180 }
+    }
+}

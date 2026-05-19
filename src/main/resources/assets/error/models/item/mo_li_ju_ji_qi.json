@@ -1,0 +1,5 @@
+{    "parent": "item/handheld",
+  "textures": {
+    "layer0":"error:items/weapon/mo_li_ju_ji_qi"
+  }
+}

@@ -1,0 +1,15 @@
+{
+	"parent": "error:item/basic_shield",
+	"textures": {
+		"layer0": "error:items/weapon/jie_lv_dun"
+	},
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "error:item/jie_lv_dun_blocking"
+        }
+    ]
+}
+

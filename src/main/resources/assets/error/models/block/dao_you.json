@@ -1,0 +1,62 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "error:blocks/dao_you",
+		"particle": "error:blocks/dao_you"
+	},
+	"elements": [
+		{
+			"from": [7.5, 5, 7.5],
+			"to": [8.5, 7, 8.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 5, 8]},
+			"faces": {
+				"north": {"uv": [1, 1, 2, 3], "texture": "#0"},
+				"east": {"uv": [0, 1, 1, 3], "texture": "#0"},
+				"south": {"uv": [3, 1, 4, 3], "texture": "#0"},
+				"west": {"uv": [2, 1, 3, 3], "texture": "#0"},
+				"up": {"uv": [2, 1, 1, 0], "texture": "#0"},
+				"down": {"uv": [3, 0, 2, 1], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 0, 6],
+			"to": [9, 5, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [4, 4, 6, 9], "texture": "#0"},
+				"east": {"uv": [0, 4, 4, 9], "texture": "#0"},
+				"south": {"uv": [10, 4, 12, 9], "texture": "#0"},
+				"west": {"uv": [6, 4, 10, 9], "texture": "#0"},
+				"up": {"uv": [6, 4, 4, 0], "texture": "#0"},
+				"down": {"uv": [8, 0, 6, 4], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 6, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 6, 0]
+		},
+		"gui": {
+			"rotation": [30, 60, 0],
+			"translation": [0, 7, 0],
+			"scale": [1.8, 1.8, 1.8]
+		}
+	},
+	"groups": [
+		{
+			"name": "bone",
+			"origin": [8, 5, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

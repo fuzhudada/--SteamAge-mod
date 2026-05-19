@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "error:items/weapon/sha_mo_gong_pulling_0"
+    }
+}

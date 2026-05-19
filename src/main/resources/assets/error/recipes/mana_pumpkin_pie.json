@@ -1,0 +1,17 @@
+{
+    "result": {
+        "item": "error:mana_pumpkin_pie"
+    },
+    "ingredients": [
+        [
+            { "item": "error:mana_sugar" }
+        ],
+        [
+            { "item": "minecraft:egg" }
+        ],
+        [
+            { "item": "minecraft:pumpkin" }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

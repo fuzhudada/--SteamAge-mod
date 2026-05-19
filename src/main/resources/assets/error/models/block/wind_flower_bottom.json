@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "error:blocks/wind_flower_bottom"
+    }
+}

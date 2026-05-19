@@ -1,0 +1,5 @@
+{    "parent": "item/handheld",
+  "textures": {
+    "layer0":"error:items/weapon/呼啸魔力聚集器"
+  }
+}

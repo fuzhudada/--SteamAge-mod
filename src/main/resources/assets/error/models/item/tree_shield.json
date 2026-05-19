@@ -1,0 +1,15 @@
+{
+	"parent": "error:item/basic_shield",
+	"textures": {
+		"layer0": "error:items/weapon/tree_shield"
+	},
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "error:item/tree_shield_blocking"
+        }
+    ]
+}
+

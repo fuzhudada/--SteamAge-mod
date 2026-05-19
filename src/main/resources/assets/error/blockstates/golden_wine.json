@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "error:golden_wine" },
+        "facing=south": { "model": "error:golden_wine", "y": 180 },
+        "facing=west":  { "model": "error:golden_wine", "y": 270 },
+        "facing=east":  { "model": "error:golden_wine", "y": 90 }
+    }
+}

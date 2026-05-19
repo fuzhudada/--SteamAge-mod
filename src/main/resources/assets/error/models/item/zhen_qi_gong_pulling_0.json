@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "error:items/weapon/蒸汽弓_pulling_0"
+    }
+}

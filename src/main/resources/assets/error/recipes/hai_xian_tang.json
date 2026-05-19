@@ -1,0 +1,23 @@
+{
+    "result": {
+        "item": "error:hai_xian_tang"
+    },
+    "ingredients": [
+        [
+            { "item": "error:hai_xian_tang_di_liao" }
+        ],
+        [
+            { "item": "error:shu_sha_yu" }
+        ],
+        [
+            { "item": "error:shu_xie_rou" }
+        ],
+        [
+            { "item": "error:shu_you_yu" }
+        ],
+        [
+            { "item": "error:shu_hai_xiang" }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

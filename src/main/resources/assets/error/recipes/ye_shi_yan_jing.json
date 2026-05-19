@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A A",
+        "BCB",
+        "   "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        "B":
+        {
+            "item": "minecraft:stained_glass_pane",
+            "data": 3
+        },
+        "C":
+        {
+            "item": "error:wo_lun"
+        }
+    },
+    
+    "result":
+    {
+        "item": "error:ye_shi_yan_jing",
+        "count": 1
+    }
+}

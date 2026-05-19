@@ -1,0 +1,12 @@
+{
+    "result": {
+        "item": "error:xun_xiang_shu_mu_ban",
+        "count": 4
+    },
+    "ingredients": [
+        [
+            { "item": "error:xun_xiang_shu" }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

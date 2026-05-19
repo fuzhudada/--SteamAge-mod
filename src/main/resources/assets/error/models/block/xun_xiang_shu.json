@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "error:blocks/xun_xiang_shu_top",
+        "side": "error:blocks/xun_xiang_shu"
+    }
+}

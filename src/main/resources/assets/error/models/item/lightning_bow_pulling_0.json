@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "error:items/weapon/lightning_bow_pulling_0"
+    }
+}

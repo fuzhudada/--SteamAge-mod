@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "A A",
+        "AAA"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "error:huo_ou"
+        }
+    },
+    
+    "result":
+    {
+        "item": "error:steam",
+        "count": 1
+    }
+}

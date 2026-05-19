@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_gate_closed",
+    "textures": {
+        "texture": "error:blocks/xun_xiang_shu_mu_ban"
+    }
+}

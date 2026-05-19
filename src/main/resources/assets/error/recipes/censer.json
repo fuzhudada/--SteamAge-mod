@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "ACA",
+        "ABA",
+        "AAA"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "error:huo_ou"
+        },
+        "B":
+        {
+            "item": "minecraft:sand",
+            "data": 0
+        },
+        "C":
+        {
+            "item": "minecraft:redstone"
+        }
+    },
+    
+    "result":
+    {
+        "item": "error:censer",
+        "count": 1
+    }
+}

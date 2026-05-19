@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "error:blocks/wall20",
+        "top": "error:blocks/wall20",
+        "side": "error:blocks/wall20"
+    }
+}

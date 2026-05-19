@@ -1,0 +1,28 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "error:items/weapon/white_snack_wand",
+		"particle": "error:items/weapon/white_snack_wand"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [60, 90, 45],
+			"translation": [0, 1, 2],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [60, -90, -45],
+			"translation": [0, 1, 2],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"firstperson_righthand": {
+			"rotation": [60, 90, 0],
+			"translation": [0, 3, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [60, -90, 0],
+			"translation": [0, 3, 1]
+		}
+	}
+}

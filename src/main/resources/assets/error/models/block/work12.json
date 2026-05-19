@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "error:blocks/birch_planks",
+    "east": "error:blocks/fletching_table_side",
+    "north": "error:blocks/fletching_table_front",
+    "particle": "error:blocks/fletching_table_front",
+    "south": "error:blocks/fletching_table_front",
+    "up": "error:blocks/fletching_table_top",
+    "west": "error:blocks/fletching_table_side"
+  }
+}

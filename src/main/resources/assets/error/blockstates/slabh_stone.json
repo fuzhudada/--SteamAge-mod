@@ -1,0 +1,10 @@
+{"variants":
+{"half=bottom,variant=default":
+{
+"model":
+"error:slabh_stone"
+},"half=top,variant=default":
+{
+"model":
+"error:slabu_stone"
+}}}

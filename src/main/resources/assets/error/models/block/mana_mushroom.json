@@ -1,0 +1,6 @@
+{
+	"parent": "block/tinted_cross",
+	"textures": {
+		"cross": "error:blocks/mana_mushroom"
+	}
+}

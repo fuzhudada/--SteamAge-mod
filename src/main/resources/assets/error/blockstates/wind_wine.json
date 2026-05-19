@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "error:wind_wine", "y": 90 },
+        "facing=south": { "model": "error:wind_wine", "y": 270 },
+        "facing=west":  { "model": "error:wind_wine" },
+        "facing=east":  { "model": "error:wind_wine", "y": 180 }
+    }
+}

@@ -1,0 +1,15 @@
+{
+	"parent": "error:item/basic_shield",
+	"textures": {
+		"layer0": "error:items/weapon/fan_shang_dun"
+	},
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "error:item/fan_shang_dun_blocking"
+        }
+    ]
+}
+

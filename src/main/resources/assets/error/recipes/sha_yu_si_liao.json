@@ -1,0 +1,20 @@
+{
+    "result": {
+        "item": "error:sha_yu_si_liao"
+    },
+    "ingredients": [
+        [
+            { "item": "error:shu_you_yu" }
+        ],
+        [
+            { "item": "error:shu_hai_xiang" }
+        ],
+        [
+            { "item": "error:xie_qian" }
+        ],
+        [
+            { "item": "error:shu_xie_rou" }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

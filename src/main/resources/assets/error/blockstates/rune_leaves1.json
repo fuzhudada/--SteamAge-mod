@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "check_decay=false,decayable=false": { "model": "error:rune_leaves1" },
+        "check_decay=true,decayable=false": { "model": "error:rune_leaves1" },
+        "check_decay=false,decayable=true": { "model": "error:rune_leaves1" },
+        "check_decay=true,decayable=true": { "model": "error:rune_leaves1" }
+    }
+}

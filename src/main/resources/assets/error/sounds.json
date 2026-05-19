@@ -1,0 +1,174 @@
+{
+  "item.wand.wind":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/wand/wind", "stream":false }]
+  },
+  "item.gun.gun1":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/gun/gun1", "stream":false }]
+  },
+  "item.gun.gun2":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/gun/change_bullet", "stream":false }]
+  },
+  "item.gun.gun3":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/gun/rocket", "stream":false }]
+  },
+  "entity.tank.hurt":{
+    "category":"player",
+    "sounds":[{ "name": "error:entity/tank_hurt", "stream":false }]
+  },
+  "entity.tank.move":{
+    "category":"player",
+    "sounds":[{ "name": "error:entity/tank_move", "stream":false }]
+  },
+  "entity.tank.fire":{
+    "category":"player",
+    "sounds":[{ "name": "error:entity/tank_fire", "stream":false }]
+  },
+  "item.armor.aas":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/armor/aas", "stream":false }]
+  },
+  "item.armor.assassin":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/armor/assassin", "stream":false }]
+  },
+  "item.sword.huang_jin_ban_hu":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/sword/huang_jin_ban_hu", "stream":false }]
+  },
+  "item.sword.gong_zheng_zhi_ci":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/sword/gong_zheng_zhi_ci", "stream":false }]
+  },
+  "item.sword.gong_zheng_zhi_ci1":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/sword/gong_zheng_zhi_ci1", "stream":false }]
+  },
+  "item.gun.gun4":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/gun/gun4", "stream":false }]
+  },
+  "item.gun.gun5":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/gun/gun5", "stream":false }]
+  },
+  "item.sword.sword_block":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/sword/sword_block", "stream":false }]
+  },
+  "item.gun.gun6":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/gun/gun6", "stream":false }]
+  },
+  "entity.sand_giant.light":{
+    "category":"player",
+    "sounds":[{ "name": "error:entity/sand_giant_light", "stream":false }]
+  },
+  "entity.sand_giant.hurt":{
+    "category":"player",
+    "sounds":[{ "name": "error:entity/sand_giant_hurt", "stream":false }]
+  },
+  "entity.sand_giant.death":{
+    "category":"player",
+    "sounds":[{ "name": "error:entity/sand_giant_death", "stream":false }]
+  },
+  "entity.sand_giant.walk":{
+    "category":"player",
+    "sounds":[{ "name": "error:entity/sand_giant_walk", "stream":false }]
+  },
+  "item.sword.steam":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/sword/steam", "stream":false }]
+  },
+  "item.sword.shou_xuan_zhe":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/sword/shou_xuan_zhe", "stream":false }]
+  },
+  "item.armor.bird":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/armor/bird", "stream":false }]
+  },
+  "item.gun.gun_bullet":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/gun/gun_bullet", "stream":false }]
+  },
+  "item.gun.gun_fire_bullet":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/gun/gun_fire_bullet", "stream":false }]
+  },
+  "item.wand.poison_wand":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/wand/poison_wand", "stream":false }]
+  },
+  "item.shield.crystal_shield":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/shield/crystal_shield", "stream":false }]
+  },
+  "item.sword.wu_zuo_bian_ta":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/sword/wu_zuo_bian_ta", "stream":false }]
+  },
+  "item.sword.steam_hammer":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/sword/steam_hammer", "stream":false }]
+  },
+  "item.gun.natural_soul":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/gun/natural_soul", "stream":false }]
+  },
+  "item.sword.storm_sword":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/sword/storm_sword", "stream":false }]
+  },
+  "item.wand.electricity":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/wand/electricity", "stream":false }]
+  },
+  "entity.moose.hurt":{
+    "category":"player",
+    "sounds":[{ "name": "error:entity/moose_hurt", "stream":false }]
+  },
+  "entity.moose.death":{
+    "category":"player",
+    "sounds":[{ "name": "error:entity/moose_death", "stream":false }]
+  },
+  "entity.moose.ambient":{
+    "category":"player",
+    "sounds":[{ "name": "error:entity/moose_ambient", "stream":false }]
+  },
+  "item.wand.moose_horn":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/wand/moose_horn", "stream":false }]
+  },
+  "item.armor.bat":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/armor/bat", "stream":false }]
+  },
+  "entity.elephant.hurt":{
+    "category":"player",
+    "sounds":[{ "name": "error:entity/elephant_hurt", "stream":false }]
+  },
+  "entity.elephant.death":{
+    "category":"player",
+    "sounds":[{ "name": "error:entity/elephant_death", "stream":false }]
+  },
+  "entity.elephant.roar":{
+    "category":"player",
+    "sounds":[{ "name": "error:entity/elephant_roar", "stream":false }]
+  },
+  "entity.elephant.step":{
+    "category":"player",
+    "sounds":[{ "name": "error:entity/elephant_step", "stream":false }]
+  },
+  "item.shield.jie_lv_dun":{
+    "category":"player",
+    "sounds":[{ "name": "error:item/shield/jie_lv_dun", "stream":false }]
+  },
+  "entity.fire_horse.run":{
+    "category":"player",
+    "sounds":[{ "name": "error:entity/fire_horse", "stream":false }]
+  }
+}

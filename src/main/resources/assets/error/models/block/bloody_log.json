@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "error:blocks/bloody_log_top",
+        "side": "error:blocks/bloody_log"
+    }
+}

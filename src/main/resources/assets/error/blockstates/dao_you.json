@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "error:dao_you", "y": 90 },
+        "facing=south": { "model": "error:dao_you", "y": 270 },
+        "facing=west":  { "model": "error:dao_you"  },
+        "facing=east":  { "model": "error:dao_you", "y": 180 }
+    }
+}

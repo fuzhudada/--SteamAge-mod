@@ -1,0 +1,5 @@
+{    "parent": "item/handheld",
+  "textures": {
+    "layer0":"error:items/weapon/ren_yu_jian"
+  }
+}

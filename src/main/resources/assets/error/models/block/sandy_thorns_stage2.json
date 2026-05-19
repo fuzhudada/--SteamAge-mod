@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "error:blocks/sandy_thorns_stage2"
+	}
+}

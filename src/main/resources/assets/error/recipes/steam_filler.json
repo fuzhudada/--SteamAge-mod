@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "DAD",
+        "DCD",
+        "DDD"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "error:qi_fa"
+        },
+        "C":
+        {
+            "item": "error:kong_guan_zi"
+        },
+        "D":
+        {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    
+    "result":
+    {
+        "item": "error:steam_filler",
+        "count": 1
+    }
+}

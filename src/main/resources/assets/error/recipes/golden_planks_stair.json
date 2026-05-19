@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A  ",
+        "AA ",
+        "AAA"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "error:golden_planks"
+        }
+    },
+    
+    "result":
+    {
+    "item": "error:stair30",
+    "data": 0,
+    "count": 4
+    }
+}

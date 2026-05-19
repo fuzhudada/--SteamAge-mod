@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "error:mai_jiu" },
+        "facing=south": { "model": "error:mai_jiu", "y": 180 },
+        "facing=west":  { "model": "error:mai_jiu", "y": 270 },
+        "facing=east":  { "model": "error:mai_jiu", "y": 90 }
+    }
+}

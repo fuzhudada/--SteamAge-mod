@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "blocks/dirt",
+        "top": "error:blocks/mana_grass_top",
+        "side": "error:blocks/mana_grass_side"
+    }
+}

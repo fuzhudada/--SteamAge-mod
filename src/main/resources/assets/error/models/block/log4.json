@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "error:blocks/top_log4",
+        "side": "error:blocks/log4"
+    }
+}

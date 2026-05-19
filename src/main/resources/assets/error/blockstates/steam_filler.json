@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "error:steam_filler", "y": 90 },
+        "facing=south": { "model": "error:steam_filler", "y": 270 },
+        "facing=west":  { "model": "error:steam_filler" },
+        "facing=east":  { "model": "error:steam_filler", "y": 180 }
+    }
+}

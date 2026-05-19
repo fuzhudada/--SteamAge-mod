@@ -1,0 +1,29 @@
+{
+    "parent": "item/handheld",
+	"textures": {
+		"layer0": "error:items/weapon/双子剑2"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -20, -35],
+			"translation": [0, 0, 0],
+			"scale": [2.0, 2.3, 2.0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -20,  25],
+			"translation": [0, 0, 0],
+			"scale": [2.0, 2.3, 2.0]
+		},
+		"firstperson_righthand": {
+			"rotation": [10, 0, -40],
+			"translation": [-7, 5, 2],
+			"scale": [1.2, 1.4, 1.2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [10, 0, 40],
+			"translation": [-7, 5, 2],
+			"scale": [1.2, 1.4, 1.2]
+		}
+	}
+}
+

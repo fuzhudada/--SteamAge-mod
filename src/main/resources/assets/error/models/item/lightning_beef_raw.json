@@ -1,0 +1,5 @@
+{    "parent": "item/handheld",
+  "textures": {
+    "layer0":"error:items/food/lightning_beef_raw"
+  }
+}

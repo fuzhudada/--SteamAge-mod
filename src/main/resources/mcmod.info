@@ -1,0 +1,16 @@
+[
+{
+  "modid": "error",
+  "name": "error",
+  "description": "A mod which is belong to SteamAge-server",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["fuzhudada"],
+  "credits": "ZhanLan",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

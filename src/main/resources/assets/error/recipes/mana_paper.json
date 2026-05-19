@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        " B "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "error:mana_reed"
+        },
+        "B":
+        {
+            "item": "error:fu_te_jia"
+        }
+    },
+    
+    "result":
+    {
+        "item": "error:mana_paper",
+        "count": 3
+    }
+}

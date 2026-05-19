@@ -1,0 +1,10 @@
+{
+  "parent": "error:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "error:blocks/beehive_end",
+    "front": "error:blocks/beehive_front_honey",
+    "particle": "error:blocks/beehive_side",
+    "side": "error:blocks/beehive_side",
+    "top": "error:blocks/beehive_end"
+  }
+}

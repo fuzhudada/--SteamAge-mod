@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "axis=y":    { "model": "error:log2" },
+        "axis=z":     { "model": "error:log2", "x": 90 },
+        "axis=x":     { "model": "error:log2", "x": 90, "y": 90 },
+        "axis=none":   { "model": "error:log2" }
+    }
+}

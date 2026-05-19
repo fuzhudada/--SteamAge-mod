@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "ABA",
+        "ABA"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "error:golden_planks"
+        },
+        "B":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+    "item": "error:golden_fence",
+    "data": 0,
+    "count": 3
+    }
+}

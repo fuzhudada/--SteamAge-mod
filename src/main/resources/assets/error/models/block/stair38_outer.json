@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "error:blocks/wall38",
+        "top": "error:blocks/wall38",
+        "side": "error:blocks/wall38"
+    }
+}

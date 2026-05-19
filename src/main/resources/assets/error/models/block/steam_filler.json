@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "error:blocks/steam_filler_down",
+        "down": "error:blocks/steam_filler_down",
+        "up": "error:blocks/steam_filler_up",
+        "north": "error:blocks/steam_filler_down",
+        "east": "error:blocks/steam_filler_east",
+        "south": "error:blocks/steam_filler_down",
+        "west": "error:blocks/steam_filler_west"
+    }
+}

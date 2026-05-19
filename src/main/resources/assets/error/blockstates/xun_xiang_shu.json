@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "axis=y":    { "model": "error:xun_xiang_shu" },
+        "axis=z":     { "model": "error:xun_xiang_shu", "x": 90 },
+        "axis=x":     { "model": "error:xun_xiang_shu", "x": 90, "y": 90 },
+        "axis=none":   { "model": "error:xun_xiang_shu" }
+    }
+}

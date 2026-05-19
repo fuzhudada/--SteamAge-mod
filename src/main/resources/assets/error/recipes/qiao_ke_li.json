@@ -1,0 +1,17 @@
+{
+    "result": {
+        "item": "error:chocolate"
+    },
+    "ingredients": [
+        [
+            { "item": "error:ke_ke_ju" }
+        ],
+        [
+            { "item": "minecraft:sugar" }
+        ],
+        [
+            { "item": "error:niu_nai" }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

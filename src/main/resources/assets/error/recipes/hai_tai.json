@@ -1,0 +1,11 @@
+{
+    "result": {
+        "item": "error:hai_tai"
+    },
+    "ingredients": [
+        [
+            { "item": "error:zi_cai" }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

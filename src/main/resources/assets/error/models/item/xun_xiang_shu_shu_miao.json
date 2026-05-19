@@ -1,0 +1,5 @@
+{    "parent": "item/handheld",
+  "textures": {
+    "layer0":"error:items/item/xun_xiang_shu_shu_miao"
+  }
+}

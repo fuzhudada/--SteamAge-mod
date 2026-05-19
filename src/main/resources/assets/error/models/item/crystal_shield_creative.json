@@ -1,0 +1,15 @@
+{
+	"parent": "error:item/basic_shield",
+	"textures": {
+		"layer0": "error:items/weapon/crystal_shield"
+	},
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "error:item/crystal_shield_creative_blocking"
+        }
+    ]
+}
+

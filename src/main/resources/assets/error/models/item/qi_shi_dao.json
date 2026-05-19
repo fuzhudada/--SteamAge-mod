@@ -1,0 +1,15 @@
+{
+	"parent": "error:item/basic_shield",
+	"textures": {
+		"layer0": "error:items/weapon/qi_shi_dao"
+	},
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "error:item/qi_shi_dao_blocking"
+        }
+    ]
+}
+

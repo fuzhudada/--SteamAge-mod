@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "error:xun_xiang_guo_shi_jiu" },
+        "facing=south": { "model": "error:xun_xiang_guo_shi_jiu", "y": 180 },
+        "facing=west":  { "model": "error:xun_xiang_guo_shi_jiu", "y": 270 },
+        "facing=east":  { "model": "error:xun_xiang_guo_shi_jiu", "y": 90 }
+    }
+}

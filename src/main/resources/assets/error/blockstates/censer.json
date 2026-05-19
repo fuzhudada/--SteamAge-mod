@@ -1,0 +1,18 @@
+{
+    "variants": {
+        "burning=false,stick=0": { "model": "error:censer" },
+        "burning=true,stick=0": { "model": "error:censer" },
+        "burning=false,stick=1": { "model": "error:censer_1" },
+        "burning=true,stick=1": { "model": "error:censer_1" },
+        "burning=false,stick=2": { "model": "error:censer_1" },
+        "burning=true,stick=2": { "model": "error:censer_1" },
+        "burning=false,stick=3": { "model": "error:censer_1" },
+        "burning=true,stick=3": { "model": "error:censer_1" },
+        "burning=false,stick=4": { "model": "error:censer_1" },
+        "burning=true,stick=4": { "model": "error:censer_1" },
+        "burning=false,stick=5": { "model": "error:censer_1" },
+        "burning=true,stick=5": { "model": "error:censer_1" },
+        "burning=false,stick=6": { "model": "error:censer_1" },
+        "burning=true,stick=6": { "model": "error:censer_1" }
+    }
+}

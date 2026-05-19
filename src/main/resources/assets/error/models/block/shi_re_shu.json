@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "error:blocks/shi_re_shu_top",
+        "side": "error:blocks/shi_re_shu"
+    }
+}

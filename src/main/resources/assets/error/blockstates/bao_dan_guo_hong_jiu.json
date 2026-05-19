@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "error:bao_dan_guo_hong_jiu" },
+        "facing=south": { "model": "error:bao_dan_guo_hong_jiu", "y": 180 },
+        "facing=west":  { "model": "error:bao_dan_guo_hong_jiu", "y": 270  },
+        "facing=east":  { "model": "error:bao_dan_guo_hong_jiu", "y": 90 }
+    }
+}

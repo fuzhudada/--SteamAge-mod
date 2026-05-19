@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "ABA",
+        "AAA"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "error:mana_paper"
+        },
+        "B":
+        {
+            "item": "error:crystal"
+        }
+    },
+    
+    "result":
+    {
+        "item": "error:deenchant_stone",
+        "count": 1
+    }
+}

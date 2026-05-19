@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "error:xun_xiang_shu_mu_ban"
+        }
+    },
+    
+    "result":
+    {
+    "item": "error:slabh1",
+    "data": 0,
+    "count": 6
+    }
+}

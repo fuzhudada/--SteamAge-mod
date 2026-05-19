@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "age=0": { "model": "error:mana_reed" },
+        "age=1": { "model": "error:mana_reed" },
+        "age=2": { "model": "error:mana_reed" },
+        "age=3": { "model": "error:mana_reed" },
+        "age=4": { "model": "error:mana_reed" },
+        "age=5": { "model": "error:mana_reed" },
+        "age=6": { "model": "error:mana_reed" },
+        "age=7": { "model": "error:mana_reed" },
+        "age=8": { "model": "error:mana_reed" },
+        "age=9": { "model": "error:mana_reed" },
+        "age=10": { "model": "error:mana_reed" },
+        "age=11": { "model": "error:mana_reed" },
+        "age=12": { "model": "error:mana_reed" },
+        "age=13": { "model": "error:mana_reed" },
+        "age=14": { "model": "error:mana_reed" },
+        "age=15": { "model": "error:mana_reed" }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "error:blocks/wind_fruit_stage_1"
+    }
+}

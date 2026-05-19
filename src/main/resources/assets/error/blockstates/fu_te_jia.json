@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "error:fu_te_jia" },
+        "facing=south": { "model": "error:fu_te_jia", "y": 180 },
+        "facing=west":  { "model": "error:fu_te_jia", "y": 270 },
+        "facing=east":  { "model": "error:fu_te_jia", "y": 90 }
+    }
+}

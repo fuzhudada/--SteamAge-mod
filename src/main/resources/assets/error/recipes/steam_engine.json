@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A ",
+        "B C",
+        "DDD"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "error:huo_ou"
+        },
+        "B":
+        {
+            "item": "minecraft:furnace"
+        },
+        "C":
+        {
+            "item": "error:kong_guan_zi"
+        },
+        "D":
+        {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    
+    "result":
+    {
+        "item": "error:steam_engine",
+        "count": 1
+    }
+}

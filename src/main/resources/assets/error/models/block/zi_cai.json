@@ -1,0 +1,7 @@
+{
+    "parent": "block/carpet",
+    "textures": {
+        "particle": "error:blocks/zi_cai",
+        "wool": "error:blocks/zi_cai"
+    }
+}

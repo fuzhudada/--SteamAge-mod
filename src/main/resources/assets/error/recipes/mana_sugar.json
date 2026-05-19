@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "error:mana_reed"
+        }
+    },
+    
+    "result":
+    {
+        "item": "error:mana_sugar",
+        "count": 1
+    }
+}

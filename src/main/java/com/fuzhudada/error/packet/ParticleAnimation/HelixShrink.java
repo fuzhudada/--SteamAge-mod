@@ -1,0 +1,104 @@
+package com.fuzhudada.error.packet.ParticleAnimation;
+
+import io.netty.buffer.ByteBuf;
+import net.minecraft.util.math.Vec3d;
+import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
+
+import java.nio.charset.StandardCharsets;
+
+public class HelixShrink implements IMessage {
+    public String types;
+    public Vec3d pos;
+    public double vel;
+    public Vec3d normal;
+    public Vec3d r;
+    public double d;
+    public double phi;
+    public double h;
+    public int n;
+    public double exp;
+    public boolean ignoreRange;
+
+    public int len;
+
+    public HelixShrink(){
+        types="flame";
+        pos=new Vec3d(0,0,0);
+        vel=0;
+        normal=new Vec3d(0,0,0);
+        r=new Vec3d(0,0,0);
+        d=0;
+        phi=0;
+        h=0;
+        n=0;
+        exp=0.5;
+        len=5;
+        ignoreRange=false;
+    }
+
+    public HelixShrink(String name,double x,double y,double z,double v,double nx,double ny,double nz,double r,double d,double phi,double h,int n,double exp){
+        types=name;
+        pos=new Vec3d(x,y,z);
+        vel=v;
+        normal=new Vec3d(nx,ny,nz);
+        this.r=new Vec3d(r,r,r);
+        this.d=d;
+        this.phi=phi;
+        this.h=h;
+        this.n=n;
+        this.exp=exp;
+        len=name.length();
+        ignoreRange=false;
+    }
+
+    public HelixShrink(String name,double x,double y,double z,double v,double nx,double ny,double nz,double rx,double ry,double rz,double d,double phi,double h,int n,double exp){
+        types=name;
+        pos=new Vec3d(x,y,z);
+        vel=v;
+        normal=new Vec3d(nx,ny,nz);
+        this.r=new Vec3d(rx,ry,rz);
+        this.d=d;
+        this.phi=phi;
+        this.h=h;
+        this.n=n;
+        this.exp=exp;
+        len=name.length();
+        ignoreRange=false;
+    }
+
+    public HelixShrink(String name,double x,double y,double z,double v,double nx,double ny,double nz,double rx,double ry,double rz,double d,double phi,double h,int n,double exp,boolean ignoreRange){
+        types=name;
+        pos=new Vec3d(x,y,z);
+        vel=v;
+        normal=new Vec3d(nx,ny,nz);
+        this.r=new Vec3d(rx,ry,rz);
+        this.d=d;
+        this.phi=phi;
+        this.h=h;
+        this.n=n;
+        this.exp=exp;
+        len=name.length();
+        this.ignoreRange=ignoreRange;
+    }
+
+    @Override
+    public void fromBytes(ByteBuf buf) {
+        pos=new Vec3d(buf.readDouble(),buf.readDouble(),buf.readDouble());
+        vel=buf.readDouble();
+        normal=new Vec3d(buf.readDouble(),buf.readDouble(),buf.readDouble());
+        r=new Vec3d(buf.readDouble(),buf.readDouble(),buf.readDouble());
+        d=buf.readDouble();
+        phi=buf.readDouble();
+        h=buf.readDouble();
+        n=buf.readInt();
+        exp=buf.readDouble();
+        ignoreRange=buf.readBoolean();
+        types=buf.readCharSequence(buf.readInt(), StandardCharsets.UTF_8).toString().trim();
+    }
+
+    @Override
+    public void toBytes(ByteBuf buf) {
+        buf.writeDouble(pos.x).writeDouble(pos.y).writeDouble(pos.z).writeDouble(vel).writeDouble(normal.x).writeDouble(normal.y).writeDouble(normal.z).writeDouble(r.x).writeDouble(r.y).writeDouble(r.z).writeDouble(d).writeDouble(phi).writeDouble(h).writeInt(n).writeDouble(exp).writeBoolean(ignoreRange).writeInt(len);
+        buf.writeCharSequence(types, StandardCharsets.UTF_8);
+    }
+}

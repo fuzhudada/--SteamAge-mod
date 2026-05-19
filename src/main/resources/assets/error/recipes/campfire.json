@@ -1,0 +1,68 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A ",
+        "ABA",
+        "CCC"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:stick"
+        },
+    "B": [
+      {
+        "item": "minecraft:coal",
+        "data": 0
+      },
+      {
+        "item": "minecraft:coal",
+        "data": 1
+      }
+    ],
+    "C": [
+      {
+        "item": "minecraft:log",
+        "data": 0
+      },
+      {
+        "item": "minecraft:log",
+        "data": 1
+      },
+      {
+        "item": "minecraft:log",
+        "data": 2
+      },
+      {
+        "item": "minecraft:log",
+        "data": 3
+      },
+      {
+        "item": "minecraft:log2",
+        "data": 0
+      },
+      {
+        "item": "minecraft:log2",
+        "data": 1
+      },
+      {
+        "item": "error:xun_xiang_shu",
+        "data": 0
+      },
+      {
+        "item": "error:golden_log",
+        "data": 0
+      }
+    ]
+    },
+    
+    "result":
+    {
+        "item": "error:campfire",
+        "count": 1
+    }
+}

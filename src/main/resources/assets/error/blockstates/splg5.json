@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "axis=y":    { "model": "error:splg5" },
+        "axis=z":     { "model": "error:splg5", "x": 90 },
+        "axis=x":     { "model": "error:splg5", "x": 90, "y": 90 },
+        "axis=none":   { "model": "error:splg5" }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "error:blocks/golden_planks",
+        "top": "error:blocks/golden_planks",
+        "side": "error:blocks/golden_planks"
+    }
+}

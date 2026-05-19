@@ -1,0 +1,17 @@
+{    "parent": "item/handheld",
+  "textures": {
+    "layer0":"error:items/weapon/受选者之柄"
+  },
+  "display": {
+        "thirdperson": {
+            "rotation": [ -90, 0, 0 ],
+            "translation": [ 0, 1, -2 ],
+            "scale": [ 36.0, 36.0, 36.0 ]
+        },
+        "firstperson": {
+            "rotation": [ 0, -135, 25 ],
+            "translation": [ 0, 4, 2 ],
+            "scale": [ 36.0, 36.0, 36.0 ]
+        }
+    }
+}

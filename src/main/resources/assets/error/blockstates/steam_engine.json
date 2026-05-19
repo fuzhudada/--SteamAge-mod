@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "burning=false,facing=north": { "model": "error:steam_engine", "y": 90 },
+        "burning=true,facing=north": { "model": "error:steam_engine", "y": 90 },
+        "burning=false,facing=south": { "model": "error:steam_engine", "y": 270 },
+        "burning=true,facing=south": { "model": "error:steam_engine", "y": 270 },
+        "burning=false,facing=west":  { "model": "error:steam_engine" },
+        "burning=true,facing=west":  { "model": "error:steam_engine" },
+        "burning=false,facing=east":  { "model": "error:steam_engine", "y": 180 },
+        "burning=true,facing=east":  { "model": "error:steam_engine", "y": 180 }
+    }
+}

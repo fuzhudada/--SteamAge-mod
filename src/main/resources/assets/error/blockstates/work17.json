@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "error:work17" },
+        "facing=south": { "model": "error:work17", "y": 180 },
+        "facing=west":  { "model": "error:work17", "y": 270 },
+        "facing=east":  { "model": "error:work17", "y": 90 }
+    }
+}

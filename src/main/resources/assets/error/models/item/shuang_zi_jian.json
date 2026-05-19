@@ -1,0 +1,37 @@
+{
+	"parent": "error:item/basic_shield",
+	"textures": {
+		"layer0": "error:items/weapon/双子剑"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, -90, 80],
+			"translation": [0, 11, 18.2],
+			"scale": [2.0, 2.3, 2.0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 90, -80],
+			"translation": [0, 11, 18.2],
+			"scale": [2.0, 2.3, 2.0]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 50],
+			"translation": [0, 5, 2],
+			"scale": [1.2, 1.4, 1.2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -50],
+			"translation": [0, 5, 2],
+			"scale": [1.2, 1.4, 1.2]
+		}
+	},
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "error:item/shuang_zi_jian_blocking"
+        }
+    ]
+}
+

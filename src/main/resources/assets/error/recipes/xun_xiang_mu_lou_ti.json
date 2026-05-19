@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A  ",
+        "AA ",
+        "AAA"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "error:xun_xiang_shu_mu_ban"
+        }
+    },
+    
+    "result":
+    {
+    "item": "error:stair1",
+    "data": 0,
+    "count": 4
+    }
+}

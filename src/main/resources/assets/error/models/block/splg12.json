@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "error:blocks/top_splg12",
+        "side": "error:blocks/splg12"
+    }
+}

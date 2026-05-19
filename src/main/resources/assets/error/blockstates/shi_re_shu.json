@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "axis=y":    { "model": "error:shi_re_shu" },
+        "axis=z":     { "model": "error:shi_re_shu", "x": 90 },
+        "axis=x":     { "model": "error:shi_re_shu", "x": 90, "y": 90 },
+        "axis=none":   { "model": "error:shi_re_shu" }
+    }
+}

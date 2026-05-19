@@ -1,0 +1,7 @@
+{
+    "parent": "error:item/basic_shield_blocking",
+	"textures": {
+		"layer0": "error:items/weapon/xiao_yuan_dun"
+	}
+}
+
