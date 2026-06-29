@@ -51,6 +51,8 @@ public class assaultManager {
         if(!event.getWorld().isRemote){
             EntityPlayerMP player=(EntityPlayerMP) event.getEntityPlayer();
             if(player != null && ModEnchantmentInit.HasCiTiao(player,ModEnchantmentInit.QIN_JIA_CI_KE)
+                    && !player.getHeldItemOffhand().equals(event.getItemStack())
+                    && !player.isRiding()
                     && ModEnchantmentInit.QIN_JIA.getEnchantmentLevel(event.getItemStack())>0
                     && !player.isPotionActive(com.somebody.idlframewok.potion.ModPotions.XIAN_XIN)){
                 if(!map.containsKey(player.getUniqueID())){

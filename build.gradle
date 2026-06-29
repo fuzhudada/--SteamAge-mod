@@ -58,16 +58,17 @@ repositories {
     mavenCentral()
     if (useMirror) {
         // remove minecraft and forge maven repositories to avoid interference
+        // 保留 libraries.minecraft.net，因为 native 库（lwjgl-platform, text2speech 等）只在上面有
         removeIf {
             it instanceof MavenArtifactRepository &&
                 (it.url.toString() == "https://repo.maven.apache.org/maven2/" ||
-                it.url.toString() == "https://maven.minecraftforge.net" ||
-                it.url.toString() == "https://libraries.minecraft.net/")
+                it.url.toString() == "https://maven.minecraftforge.net")
         }
         // add mirror repositories
         maven { url "https://maven.aliyun.com/nexus/content/groups/public" }
         maven { url "file://${projectDir}/.gradle/local-repo" }
         maven { url "https://${mirror_maven_url}" }
+        maven { url "https://libraries.minecraft.net/" }
     }
 
     maven {
