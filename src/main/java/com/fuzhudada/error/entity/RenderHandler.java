@@ -624,5 +624,14 @@ public class RenderHandler {
                 return new RenderFireHorse(manager);
             }
         });
+
+        RenderingRegistry.registerEntityRenderingHandler(EntityWingedScepter.class, new IRenderFactory<EntityWingedScepter>()
+        {
+            @Override
+            public Render<? super EntityWingedScepter> createRenderFor(RenderManager manager)
+            {
+                return new RenderShouXuanZheZhiBing(manager);
+            }
+        });
     }
 }

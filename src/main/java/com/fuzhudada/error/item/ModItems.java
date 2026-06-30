@@ -100,7 +100,7 @@ public class ModItems {
 	public static final Item DI_JIAN = new ItemSwordBase("di_jian",Item.ToolMaterial.DIAMOND).setCreativeTab(ModCreativeTab.WEAPON);
 	public static final Item LIE_FENG_QI_QIANG = new ItemLieFengQiQiang("lie_feng_qi_qiang",Item.ToolMaterial.DIAMOND).setCreativeTab(ModCreativeTab.WEAPON);
 	public static final Item ZHEN_TONG = new ItemZhenTong("zhen_tong",Item.ToolMaterial.DIAMOND).setCreativeTab(ModCreativeTab.WEAPON);
-	public static final Item YU_HUA_DE_QUAN_BING = new ItemSwordBase("yu_hua_de_quan_bing",Item.ToolMaterial.DIAMOND).setCreativeTab(ModCreativeTab.WEAPON);
+	public static final Item YU_HUA_DE_QUAN_BING = new ItemWingedScepter("yu_hua_de_quan_bing",Item.ToolMaterial.DIAMOND).setCreativeTab(ModCreativeTab.WEAPON);
 	public static final Item DIAN_FAN_JIAN = new ItemZhanFengJuJian("dian_fan_jian",Item.ToolMaterial.DIAMOND).setCreativeTab(ModCreativeTab.WEAPON);
 	public static final Item NEW_YEAR_HAMMER = new ItemNewYearHammer("new_year_hammer",Item.ToolMaterial.DIAMOND).setCreativeTab(ModCreativeTab.WEAPON);
 	public static final Item BLOODY_SWORD = new ItemSwordBase("bloody_sword",Item.ToolMaterial.DIAMOND).setCreativeTab(ModCreativeTab.WEAPON);

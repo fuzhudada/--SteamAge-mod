@@ -88,6 +88,7 @@ public class ModEntityInit {
         registerEntity("horse", EntityHorse.class);
         registerEntity("rider_elephant", EntityRiderElephant.class);
         registerEntity("fire_horse", EntityFireHorse.class);
+        RegisterEntityWithoutEgg("winged_scepter", EntityWingedScepter.class);
 //        registerEntity("moroon_tainter", EntityMoroonTainter.class,0xff00ff, 0x000033);
 //        registerEntity("idealland_whitetower_core", EntityIDLWhiteTowerCore.class, ENTITY_NEXT_ID, 128, 0xeeee00, 0xffffff);
 
