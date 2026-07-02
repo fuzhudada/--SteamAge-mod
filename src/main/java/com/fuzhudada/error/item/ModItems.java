@@ -63,6 +63,8 @@ public class ModItems {
 	public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_BAT = EnumHelper.addArmorMaterial("armor_material_bat", "error:bat_armor", 1000,new int[] {3,6,8,3}, 10, ITEM_ARMOR_EQUIP_DIAMOND, 2);
 	public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_BLOODY = EnumHelper.addArmorMaterial("armor_material_bloody", "error:bloody_armor", 1000,new int[] {3,6,8,3}, 10, ITEM_ARMOR_EQUIP_DIAMOND, 2);
 	public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_BLOODY1 = EnumHelper.addArmorMaterial("armor_material_bloody1", "error:bloody_armor1", 1000,new int[] {3,6,8,3}, 10, ITEM_ARMOR_EQUIP_DIAMOND, 2);
+	public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_INVISIBLE = EnumHelper.addArmorMaterial("armor_material_invisible", "error:invisible", 1000,new int[] {3,6,8,3}, 10, ITEM_ARMOR_EQUIP_DIAMOND, 2);
+	public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_INVISIBLE1 = EnumHelper.addArmorMaterial("armor_material_invisible1", "error:invisible1", 1000,new int[] {3,6,8,3}, 10, ITEM_ARMOR_EQUIP_DIAMOND, 2);
 
 
 	//虚数界限武器
@@ -378,6 +380,10 @@ public class ModItems {
 	public static final Item BLOODY_CHEST = new ItemBloodyArmor("bloody_chest", ARMOR_MATERIAL_BLOODY,6, EntityEquipmentSlot.CHEST).setCreativeTab(ModCreativeTab.ARMOR);
 	public static final Item BLOODY_LEG = new ItemBloodyArmor("bloody_leg", ARMOR_MATERIAL_BLOODY1,6, EntityEquipmentSlot.LEGS).setCreativeTab(ModCreativeTab.ARMOR);
 	public static final Item BLOODY_BOOT = new ItemBloodyArmor("bloody_boot", ARMOR_MATERIAL_BLOODY1,6, EntityEquipmentSlot.FEET).setCreativeTab(ModCreativeTab.ARMOR);
+	public static final Item INVISIBLE_HEAD = new ItemInvisiblePowerArmor("invisible_head", ARMOR_MATERIAL_INVISIBLE,6, EntityEquipmentSlot.HEAD).setCreativeTab(ModCreativeTab.ARMOR);
+	public static final Item INVISIBLE_CHEST = new ItemInvisiblePowerArmor("invisible_chest", ARMOR_MATERIAL_INVISIBLE,6, EntityEquipmentSlot.CHEST).setCreativeTab(ModCreativeTab.ARMOR);
+	public static final Item INVISIBLE_LEG = new ItemInvisiblePowerArmor("invisible_leg", ARMOR_MATERIAL_INVISIBLE,6, EntityEquipmentSlot.LEGS).setCreativeTab(ModCreativeTab.ARMOR);
+	public static final Item INVISIBLE_BOOT = new ItemInvisiblePowerArmor("invisible_boot", ARMOR_MATERIAL_INVISIBLE1,6, EntityEquipmentSlot.FEET).setCreativeTab(ModCreativeTab.ARMOR);
 
 
 	//创造模式物品

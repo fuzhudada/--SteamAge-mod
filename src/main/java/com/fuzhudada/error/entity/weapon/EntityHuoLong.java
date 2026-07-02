@@ -126,6 +126,17 @@ public class EntityHuoLong extends EntityCreature {
             for (int i = 0; i < 72; i++) {
                 this.world.spawnParticle(EnumParticleTypes.CLOUD, this.posX, this.posY, this.posZ, Math.cos(i * Math.PI / 36), Math.random()*0.3-0.15, Math.sin(i * Math.PI / 36));
             }
+        }else if(getType()==14){
+            for (int i = 0; i < 30; i++) {
+                double x=posX+Math.random()*2-1;
+                double y=posY+Math.random()*2-1;
+                double z=posZ+Math.random()*2-1;
+                this.world.spawnParticle(EnumParticleTypes.SMOKE_LARGE, x,y,z, 0.1*(posX-x),0.1*(posY-y),0.1*(posZ-z));
+            }
+        }else if(getType()==15){
+            for (int i = 0; i < 30; i++) {
+                this.world.spawnParticle(EnumParticleTypes.SMOKE_LARGE, this.posX, this.posY, this.posZ, 0.5*Math.random()-0.25, 0.5*Math.random()-0.25, 0.5*Math.random()-0.25);
+            }
         }
         this.setDead();
         super.onLivingUpdate();

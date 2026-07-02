@@ -83,6 +83,24 @@ public class KeyBoardManager{
                 player.getCooldownTracker().setCooldown(feet.getItem(), 200);
                 PacketHandler.INSTANCE.sendToServer(new MessageAASSkill(1));
             }
+
+            ItemStack invisibleChest=player.getItemStackFromSlot(EntityEquipmentSlot.CHEST);
+            if(ModEnchantmentInit.isArmorAllEquiped(ModItems.INVISIBLE_HEAD,ModItems.INVISIBLE_CHEST,ModItems.INVISIBLE_LEG,ModItems.INVISIBLE_BOOT,player)
+                    && player.getCooldownTracker().getCooldown(invisibleChest.getItem(),0)<=0
+                    && ModEnchantmentInit.PEI.getEnchantmentLevel(player.getItemStackFromSlot(EntityEquipmentSlot.HEAD))==0
+                    && ModEnchantmentInit.PEI.getEnchantmentLevel(invisibleChest)==0
+                    && ModEnchantmentInit.PEI.getEnchantmentLevel(player.getItemStackFromSlot(EntityEquipmentSlot.LEGS))==0
+                    && ModEnchantmentInit.PEI.getEnchantmentLevel(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))==0
+                    && ISteamWeapon.getSteam(player.getItemStackFromSlot(EntityEquipmentSlot.HEAD))>=5
+                    && ISteamWeapon.getSteam(invisibleChest)>=5
+                    && ISteamWeapon.getSteam(player.getItemStackFromSlot(EntityEquipmentSlot.LEGS))>=5
+                    && ISteamWeapon.getSteam(player.getItemStackFromSlot(EntityEquipmentSlot.FEET))>=5){
+                player.motionX=2*player.getLookVec().x;
+                player.motionY+=1.5;
+                player.motionZ=2*player.getLookVec().z;
+                player.getCooldownTracker().setCooldown(invisibleChest.getItem(), 400);
+                PacketHandler.INSTANCE.sendToServer(new MessageAASSkill(2));
+            }
         }
     }
 }

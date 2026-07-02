@@ -306,6 +306,10 @@ item.jie_lv_jian.name=古朴英雄大剑
 item.jie_lv_dun.name=古朴英雄盾牌
 item.bloody_meet.name=血肉
 item.spear.name=长矛
+item.invisible_head.name=隐形动力甲头盔
+item.invisible_chest.name=隐形动力甲胸甲
+item.invisible_leg.name=隐形动力甲护腿
+item.invisible_boot.name=隐形动力甲靴子
 
 # Potions
 idlframewok.potion.chao_yong_zhi_hu=潮涌之护

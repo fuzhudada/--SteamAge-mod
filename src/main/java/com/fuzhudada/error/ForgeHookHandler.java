@@ -853,10 +853,21 @@ public class ForgeHookHandler{
                 nbt.setTag("fall", new NBTTagInt(0));
                 chest.setTagCompound(nbt);
             }
-        }
-    }
 
-    //反射
+            //隐身动力甲免疫摔落伤害
+            if (chest.getItem() == ModItems.INVISIBLE_CHEST
+                    && chest.getTagCompound() != null
+                    && Objects.requireNonNull(chest.getTagCompound()).getByte("fall")==1) {
+                event.setCanceled(true);
+                NBTTagCompound nbt = chest.getTagCompound();
+                nbt.setTag("fall", new NBTTagInt(0));
+                chest.setTagCompound(nbt);
+                EntityHuoLong.spawnParticle(H.posX,H.posY+1,H.posZ,15,world);
+            }
+		}
+	}
+
+	//反射
     protected void Fan_She(EntityLivingBase Attacker, EntityLivingBase entity, float Damage) {
         Attacker.attackEntityFrom(DamageSource.causeMobDamage(entity), Damage);
     }

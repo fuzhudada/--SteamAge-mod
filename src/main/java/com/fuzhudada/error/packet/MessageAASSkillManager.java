@@ -1,6 +1,8 @@
 package com.fuzhudada.error.packet;
 
 import com.fuzhudada.error.ModDamageSource;
+import com.fuzhudada.error.assassin.assaultManager;
+import com.fuzhudada.error.enchantments.ModEnchantmentInit;
 import com.fuzhudada.error.entity.weapon.EntityHuoLong;
 import com.fuzhudada.error.item.ModItems;
 import com.fuzhudada.error.item.sword.ISteamWeapon;
@@ -10,12 +12,14 @@ import net.minecraft.entity.item.EntityArmorStand;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.init.MobEffects;
+import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagInt;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.SoundCategory;
+import com.somebody.idlframewok.potion.ModPotions;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
@@ -82,6 +86,35 @@ public class MessageAASSkillManager implements IMessageHandler<MessageAASSkill, 
                     nbt.setTag("fall", new NBTTagInt(1));
                 }
                 feet.setTagCompound(nbt);
+            }
+
+            ItemStack invisibleHead=player.getItemStackFromSlot(EntityEquipmentSlot.HEAD);
+            ItemStack invisibleChest=player.getItemStackFromSlot(EntityEquipmentSlot.CHEST);
+            ItemStack invisibleLeg=player.getItemStackFromSlot(EntityEquipmentSlot.LEGS);
+            ItemStack invisibleBoot=player.getItemStackFromSlot(EntityEquipmentSlot.FEET);
+            if(message.type==2
+                    && ModEnchantmentInit.isArmorAllEquiped(ModItems.INVISIBLE_HEAD,ModItems.INVISIBLE_CHEST,ModItems.INVISIBLE_LEG,ModItems.INVISIBLE_BOOT,player)
+                    && ISteamWeapon.shrinkSteam(invisibleHead,5)
+                    && ISteamWeapon.shrinkSteam(invisibleChest,5)
+                    && ISteamWeapon.shrinkSteam(invisibleLeg,5)
+                    && ISteamWeapon.shrinkSteam(invisibleBoot,5)){
+                EntityHuoLong.spawnParticle(player.posX,player.posY+1,player.posZ,14,world);
+                player.getCooldownTracker().setCooldown(invisibleChest.getItem(), 400);
+                world.playSound(null, player.posX, player.posY, player.posZ, SoundEvents.BLOCK_FIRE_EXTINGUISH, SoundCategory.PLAYERS, 2F, player.getRNG().nextFloat() * 0.1F + 0.9F);
+                player.removePotionEffect(ModPotions.XIAN_XIN);
+
+                if(assaultManager.isPlayerAssaulting(player)){
+                    assaultManager.map.remove(player.getUniqueID());
+                }
+
+                if(invisibleChest.getTagCompound() == null){
+                    invisibleChest.setTagCompound(new NBTTagCompound());
+                }
+                NBTTagCompound nbt = invisibleChest.getTagCompound();
+                if(nbt != null) {
+                    nbt.setTag("fall", new NBTTagInt(1));
+                }
+                invisibleChest.setTagCompound(nbt);
             }
         });
         return null;
