@@ -1,6 +1,6 @@
 package com.somebody.idlframewok.entity;
 
-import com.fuzhudada.error.entity.creatures.EntityYunShi;
+import com.fuzhudada.error.entity.projectiles.EntityYunShi;
 import com.fuzhudada.error.entity.model.*;
 import com.fuzhudada.error.entity.projectiles.*;
 import com.fuzhudada.error.entity.weapon.*;
@@ -89,6 +89,8 @@ public class ModEntityInit {
         registerEntity("rider_elephant", EntityRiderElephant.class);
         registerEntity("fire_horse", EntityFireHorse.class);
         RegisterEntityWithoutEgg("winged_scepter", EntityWingedScepter.class);
+        registerEntity("robot_killer", EntityRobotKiller.class);
+        RegisterEntityWithoutEgg("robot_bullet", EntityRobotBullet.class);
 //        registerEntity("moroon_tainter", EntityMoroonTainter.class,0xff00ff, 0x000033);
 //        registerEntity("idealland_whitetower_core", EntityIDLWhiteTowerCore.class, ENTITY_NEXT_ID, 128, 0xeeee00, 0xffffff);
 

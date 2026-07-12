@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "activated=false,facing=down":  { "model": "error:vent_fan", "x": 180 },
+        "activated=true,facing=down":  { "model": "error:vent_fan_on", "x": 180 },
+        "activated=false,facing=up":  { "model": "error:vent_fan" },
+        "activated=true,facing=up":  { "model": "error:vent_fan_on" },
+        "activated=false,facing=north":  { "model": "error:vent_fan", "x": 90 },
+        "activated=true,facing=north":  { "model": "error:vent_fan_on", "x": 90 },
+        "activated=false,facing=south":  { "model": "error:vent_fan", "x": 90 , "y": 180 },
+        "activated=true,facing=south":  { "model": "error:vent_fan_on", "x": 90 , "y": 180 },
+        "activated=false,facing=west":  { "model": "error:vent_fan", "x": 90 , "y": 270 },
+        "activated=true,facing=west":  { "model": "error:vent_fan_on", "x": 90 , "y": 270 },
+        "activated=false,facing=east":  { "model": "error:vent_fan", "x": 90 , "y": 90 },
+        "activated=true,facing=east":  { "model": "error:vent_fan_on", "x": 90 , "y": 90 }
+    }
+}

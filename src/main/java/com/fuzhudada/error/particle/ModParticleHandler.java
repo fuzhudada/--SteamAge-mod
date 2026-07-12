@@ -17,6 +17,7 @@ public class ModParticleHandler {
     public static EnumParticleTypes INVISIBLE_LIGHT_SOURCE;
     public static EnumParticleTypes CAMPFIRE;
     public static EnumParticleTypes BLACK_FLAME;
+    public static EnumParticleTypes GREEN_GAS;
 
     public static void init(){
         TEST = registerParticle("testParticle",true,new ParticleTest.Factory());
@@ -28,6 +29,7 @@ public class ModParticleHandler {
         INVISIBLE_LIGHT_SOURCE = registerParticle("invisible_light_source",true,new ParticleInvisibleLightSource.Factory());
         CAMPFIRE = registerParticle("campfire",true,new ParticleCampfire.Factory());
         BLACK_FLAME = registerParticle("black_flame",true,new ParticleBlackFlame.Factory());
+        GREEN_GAS = registerParticle("green_gas",true,new ParticleGreenGas.Factory());
     }
 
     private static EnumParticleTypes registerParticle(String name, boolean ignoreRange, IParticleFactory factory){

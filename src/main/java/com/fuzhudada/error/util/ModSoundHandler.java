@@ -55,6 +55,8 @@ public class ModSoundHandler {
     public static SoundEvent ELEPHANT_STEP = new ModSoundEvent("entity.elephant.step");
     public static SoundEvent JIE_LV_DUN = new ModSoundEvent("item.shield.jie_lv_dun");
     public static SoundEvent FIRE_HORSE = new ModSoundEvent("entity.fire_horse.run");
+    public static SoundEvent ROBOT_KILLER_ARM_ROTATE = new ModSoundEvent("entity.robot_killer.arm_rotate");
+    public static SoundEvent ROBOT_KILLER_WALK = new ModSoundEvent("entity.robot_killer.walk");
 //    public static SoundEvent SOUND_2 = new ModSoundEvent("entity.moroon.hurt");
 
     public static void soundRegister()

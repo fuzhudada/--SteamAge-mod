@@ -339,4 +339,5 @@ public class ModBlocks {
 	public static final Block WORK17 = new BlockCanRotate("work17",Material.WOOD,SoundType.WOOD).setCreativeTab(ModCreativeTab.NEW_VERSION_BLOCK).setHardness(1.0f);
 	public static final Block WORK18 = new BlockGlowingCanRotate("work18",Material.WOOD,SoundType.WOOD).setCreativeTab(ModCreativeTab.NEW_VERSION_BLOCK).setHardness(1.0f);
 	public static final Block WORK19 = new BlockStoneCutter("work19",Material.WOOD,SoundType.WOOD).setCreativeTab(ModCreativeTab.NEW_VERSION_BLOCK).setHardness(1.0f);
+	public static final Block VENT_FAN = new BlockVentFan("vent_fan",Material.IRON,SoundType.METAL).setCreativeTab(ModCreativeTab.BLOCK).setHardness(3.0f);
 }

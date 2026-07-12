@@ -170,5 +170,13 @@
   "entity.fire_horse.run":{
     "category":"player",
     "sounds":[{ "name": "error:entity/fire_horse", "stream":false }]
+  },
+  "entity.robot_killer.arm_rotate":{
+    "category":"player",
+    "sounds":[{ "name": "error:entity/robot_killer_arm_rotate", "stream":false }]
+  },
+  "entity.robot_killer.walk":{
+    "category":"player",
+    "sounds":[{ "name": "error:entity/robot_killer_walk", "stream":false }]
   }
 }

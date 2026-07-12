@@ -333,4 +333,7 @@ death.attack.shotGun=%1$s 被 %2$s 用霰弹枪打成了拼图
 
 tank.damage=攻击无效！请使用反坦克武器攻击坦克！
 
+entity.robot_killer.name=杀人机器人
+tile.vent_fan.name=通风风扇
+
 steam.steam=蒸汽储量：%sSR / %sSR

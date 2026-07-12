@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "error:blocks/fan_side",
+        "down": "error:blocks/fan_side",
+        "up": "error:blocks/fanfast_face",
+        "north": "error:blocks/fan_side",
+        "east": "error:blocks/fan_side",
+        "south": "error:blocks/fan_side",
+        "west": "error:blocks/fan_side"
+    }
+}

@@ -65,7 +65,7 @@ public class ForgeHookHandler{
             }
 
             //剧毒空气
-            if (P.isPotionActive(ModPotions.JU_DU_KONG_QI) && !P.isPotionActive(ModPotions.CEN_DIAN)) {
+            if (P.isPotionActive(ModPotions.JU_DU_KONG_QI)) {
                 P.attackEntityFrom(DamageSource.MAGIC, (float) java.lang.Math.pow(Objects.requireNonNull(P.getActivePotionEffect(ModPotions.JU_DU_KONG_QI)).getAmplifier() + 1, 2));
             }
 

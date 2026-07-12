@@ -112,7 +112,7 @@ public interface IGun extends Shootable{
         Vec3d F = D.normalize();
         //普通子弹
         if(type==0){
-            com.fuzhudada.error.entity.creatures.EntityYunShi g = new com.fuzhudada.error.entity.creatures.EntityYunShi(worldIn);
+            EntityYunShi g = new EntityYunShi(worldIn);
             g.shoot(playerIn, playerIn.rotationPitch, playerIn.rotationYaw, 0.0F, 3.0F, 1.0F);
             g.setNoGravity(true);
             g.DAMAGE = damage;

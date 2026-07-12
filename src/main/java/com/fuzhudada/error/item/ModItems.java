@@ -178,7 +178,7 @@ public class ModItems {
 	public static final Item BENG_DONG_XIAN_DAN_QIANG = new ItemXianDanQiang("beng_dong_xian_dan_qiang",58,3).setCreativeTab(ModCreativeTab.WEAPON);
 	public static final Item NEW_YEAR_KUI_SHE = new ItemNewYearKuiShe("new_year_kui_she",6,112,60).setCreativeTab(ModCreativeTab.WEAPON);
 	public static final Item GATLING = new ItemGatling("gatling",100,32,200).setCreativeTab(ModCreativeTab.WEAPON);
-	public static final Item YELLOW_KUI_SHE = new ItemBase("yellow_kui_she").setCreativeTab(ModCreativeTab.WEAPON);
+	public static final Item YELLOW_KUI_SHE = new ItemYellowKuiShe("yellow_kui_she",6,64,20).setCreativeTab(ModCreativeTab.WEAPON);
 	public static final Item NATURAL_SOUL = new ItemNaturalSoul("natural_soul",1,new int[]{0,1},new float[]{148,260},new int[]{20,50}).setCreativeTab(ModCreativeTab.WEAPON);
 	public static final Item LIGHTNING_GUN = new ItemLightningGun("lightning_gun",1,new int[]{0,2},new float[]{162,108},new int[]{20,20}).setCreativeTab(ModCreativeTab.WEAPON);
 	public static final Item GUARD_SHOTGUN = new ItemXianDanQiang("guard_shotgun",9,1).setCreativeTab(ModCreativeTab.WEAPON);

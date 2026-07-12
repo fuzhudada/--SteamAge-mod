@@ -1,4 +1,4 @@
-package com.fuzhudada.error.entity.creatures;
+package com.fuzhudada.error.entity.projectiles;
 
 import net.minecraft.block.BlockBush;
 import net.minecraft.entity.EntityLivingBase;

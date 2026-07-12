@@ -1,19 +1,15 @@
 package com.fuzhudada.error.item.sword;
 
-import com.fuzhudada.error.entity.creatures.EntityYunShi;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumHand;
-import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Modifier;
-
-import static scala.xml.parsing.MarkupParser$class.appendText;
 
 public class ItemDaoChao extends com.somebody.idlframewok.item.ItemSwordBase {
     public ItemDaoChao(String name, ToolMaterial material) {

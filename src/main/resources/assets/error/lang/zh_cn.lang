@@ -530,4 +530,7 @@ blueWizardSword.s3=黄金半弧：★★
 blueWizardSword.s4=半月斩：■□
 blueWizardSword.s5=半月斩：■■
 
+entity.robot_killer.name=杀人机器人
+tile.vent_fan.name=通风风扇
+
 jieLvDun.coolDown=剩余冷却时间：

@@ -11,6 +11,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.SoundCategory;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 import javax.annotation.Nonnull;
@@ -19,6 +20,7 @@ import java.util.List;
 public class EntityZhongDanPao extends EntityCreature {
     public final EntityLivingBase Igniter;
     private final EntityLivingBase target;
+    private final BlockPos targetPos;
     private final float damage;
 
     public EntityZhongDanPao(World worldIn) {
@@ -26,6 +28,7 @@ public class EntityZhongDanPao extends EntityCreature {
         this.isImmuneToFire=true;
         this.Igniter=null;
         this.target=null;
+        this.targetPos=null;
         this.damage=320;
     }
 
@@ -34,6 +37,16 @@ public class EntityZhongDanPao extends EntityCreature {
         this.isImmuneToFire=true;
         this.Igniter=igniter;
         this.target=target;
+        this.targetPos=null;
+        this.damage=damage;
+    }
+
+    public EntityZhongDanPao(World worldIn,EntityLivingBase igniter,BlockPos target,float damage){
+        super(worldIn);
+        this.isImmuneToFire=true;
+        this.Igniter=igniter;
+        this.target=null;
+        this.targetPos=target;
         this.damage=damage;
     }
 
@@ -56,9 +69,15 @@ public class EntityZhongDanPao extends EntityCreature {
             this.motionX = this.motionX + 0.01*(target.posX-this.posX);
             this.motionY = this.motionY + 0.007*(target.posY+target.getEyeHeight()-this.posY);
             this.motionZ = this.motionZ + 0.01*(target.posZ-this.posZ);
+        }else if(targetPos != null){
+            this.motionX = this.motionX + 0.01*(targetPos.getX()-this.posX);
+            this.motionY = this.motionY + 0.007*(targetPos.getY()-this.posY);
+            this.motionZ = this.motionZ + 0.01*(targetPos.getZ()-this.posZ);
         }
 
-        if(this.ticksExisted>100 || (target != null && getDistance(target)<3)){
+        if(ticksExisted>5 && (this.ticksExisted>100
+                || (target != null && getDistance(target)<3)
+                || (targetPos != null && Math.sqrt((targetPos.getX()-posX)*(targetPos.getX()-posX) + (targetPos.getY()-posY)*(targetPos.getY()-posY) + (targetPos.getZ()-posZ)*(targetPos.getZ()-posZ))<3))){
             explode();
         }
         super.onUpdate();

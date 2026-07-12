@@ -1,6 +1,6 @@
 package com.fuzhudada.error.entity;
 
-import com.fuzhudada.error.entity.creatures.EntityYunShi;
+import com.fuzhudada.error.entity.projectiles.EntityYunShi;
 import com.fuzhudada.error.entity.model.*;
 import com.fuzhudada.error.entity.projectiles.*;
 import com.fuzhudada.error.entity.weapon.*;
@@ -631,6 +631,24 @@ public class RenderHandler {
             public Render<? super EntityWingedScepter> createRenderFor(RenderManager manager)
             {
                 return new RenderShouXuanZheZhiBing(manager);
+            }
+        });
+
+        RenderingRegistry.registerEntityRenderingHandler(EntityRobotKiller.class, new IRenderFactory<EntityRobotKiller>()
+        {
+            @Override
+            public Render<? super EntityRobotKiller> createRenderFor(RenderManager manager)
+            {
+                return new RenderRobotKiller(manager);
+            }
+        });
+
+        RenderingRegistry.registerEntityRenderingHandler(EntityRobotBullet.class, new IRenderFactory<EntityRobotBullet>()
+        {
+            @Override
+            public Render<? super EntityRobotBullet> createRenderFor(RenderManager manager)
+            {
+                return new RenderYunShi<>(manager, ModItems.ZI_DAN1,Minecraft.getMinecraft().getRenderItem(),1,1,1);
             }
         });
     }
