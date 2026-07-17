@@ -310,6 +310,7 @@ item.invisible_head.name=隐形动力甲头盔
 item.invisible_chest.name=隐形动力甲胸甲
 item.invisible_leg.name=隐形动力甲护腿
 item.invisible_boot.name=隐形动力甲靴子
+item.flag.name=技术寮战旗
 
 # Potions
 idlframewok.potion.chao_yong_zhi_hu=潮涌之护
@@ -354,6 +355,8 @@ entity.elephant.name=擂击兽
 entity.horse.name=马
 entity.rider_elephant.name=骑象
 entity.fire_horse.name=法兰红鬃名驹
+entity.robot_killer.name=杀人机器人
+entity.flag.name=技术寮战旗
 
 #enchantment
 enchantment.jin_shu_qin_shi=金属侵蚀
@@ -480,6 +483,7 @@ tile.xun_xiang_fence.name=熏香木栅栏
 tile.golden_fence_gate.name=黄金木栅栏门
 tile.xun_xiang_fence_gate.name=熏香木栅栏门
 tile.campfire.name=营火
+tile.vent_fan.name=通风风扇
 
 bag.bullet=子弹箱
 bag.bag=背包
@@ -529,8 +533,5 @@ blueWizardSword.s2=公正之刺：●●
 blueWizardSword.s3=黄金半弧：★★
 blueWizardSword.s4=半月斩：■□
 blueWizardSword.s5=半月斩：■■
-
-entity.robot_killer.name=杀人机器人
-tile.vent_fan.name=通风风扇
 
 jieLvDun.coolDown=剩余冷却时间：

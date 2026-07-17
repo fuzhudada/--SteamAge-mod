@@ -282,6 +282,7 @@ public class ModItems {
 	public static final Item DEER_HORN = new com.somebody.idlframewok.item.ItemBase("deer_horn").setCreativeTab(ModCreativeTab.TOOL).setMaxStackSize(1);
 	public static final Item CAMPFIRE = new ItemBlockCampfire("campfire",1).setCreativeTab(ModCreativeTab.NEW_VERSION_BLOCK);
 	public static final Item SOUL_CAMPFIRE = new ItemBlockCampfire("soul_campfire",2).setCreativeTab(ModCreativeTab.NEW_VERSION_BLOCK);
+	public static final Item FLAG = new ItemBase("flag").setCreativeTab(ModCreativeTab.TOOL);
 
 
 	//材料

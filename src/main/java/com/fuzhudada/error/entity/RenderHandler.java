@@ -651,5 +651,14 @@ public class RenderHandler {
                 return new RenderYunShi<>(manager, ModItems.ZI_DAN1,Minecraft.getMinecraft().getRenderItem(),1,1,1);
             }
         });
+
+        RenderingRegistry.registerEntityRenderingHandler(EntityFlag.class, new IRenderFactory<EntityFlag>()
+        {
+            @Override
+            public Render<? super EntityFlag> createRenderFor(RenderManager manager)
+            {
+                return new RenderFlag(manager);
+            }
+        });
     }
 }

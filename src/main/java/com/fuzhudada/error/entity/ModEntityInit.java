@@ -91,6 +91,7 @@ public class ModEntityInit {
         RegisterEntityWithoutEgg("winged_scepter", EntityWingedScepter.class);
         registerEntity("robot_killer", EntityRobotKiller.class);
         RegisterEntityWithoutEgg("robot_bullet", EntityRobotBullet.class);
+        registerEntity("flag", EntityFlag.class);
 //        registerEntity("moroon_tainter", EntityMoroonTainter.class,0xff00ff, 0x000033);
 //        registerEntity("idealland_whitetower_core", EntityIDLWhiteTowerCore.class, ENTITY_NEXT_ID, 128, 0xeeee00, 0xffffff);
 
