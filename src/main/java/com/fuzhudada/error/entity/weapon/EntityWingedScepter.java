@@ -2,7 +2,6 @@ package com.fuzhudada.error.entity.weapon;
 
 import com.fuzhudada.error.ModDamageSource;
 import com.somebody.idlframewok.potion.ModPotions;
-import javafx.util.Pair;
 import net.minecraft.entity.EntityCreature;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.item.EntityArmorStand;
@@ -22,7 +21,7 @@ public class EntityWingedScepter extends EntityCreature {
     public EntityLivingBase attacker;
     public int num, freq;
 
-    public List<Pair<Double,Double>> warps;
+    public List<List<Double>> warps;
 
     public EntityWingedScepter(World worldIn) {
         super(worldIn);
@@ -60,9 +59,9 @@ public class EntityWingedScepter extends EntityCreature {
                 }
             }else if(ticksExisted == freq*num+20){
                 if(warps != null){
-                    for (Pair<Double, Double> po : warps) {
-                        double x = po.getKey();
-                        double z = po.getValue();
+                    for (List<Double> po : warps) {
+                        double x = po.get(0);
+                        double z = po.get(1);
 
                         ((WorldServer)world).spawnParticle(EnumParticleTypes.TOTEM,x,posY,z,150,0,10,0,0.2);
 
@@ -85,9 +84,9 @@ public class EntityWingedScepter extends EntityCreature {
             }
 
             if(warps != null){
-                for (Pair<Double, Double> po : warps) {
-                    double x = po.getKey();
-                    double z = po.getValue();
+                for (List<Double> po : warps) {
+                    double x = po.get(0);
+                    double z = po.get(1);
 
                     ((WorldServer)world).spawnParticle(EnumParticleTypes.END_ROD,x,posY,z,30,0,10,0,0.01);
                 }
@@ -100,6 +99,9 @@ public class EntityWingedScepter extends EntityCreature {
     public void addPos(){
         double x=posX+2*Math.random()*range-range;
         double z=posZ+2*Math.random()*range-range;
-        warps.add(new Pair<>(x, z));
+        ArrayList<Double> res=new ArrayList<>();
+        res.add(x);
+        res.add(z);
+        warps.add(res);
     }
 }

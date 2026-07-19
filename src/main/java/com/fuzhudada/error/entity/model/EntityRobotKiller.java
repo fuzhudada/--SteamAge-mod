@@ -706,7 +706,7 @@ public class EntityRobotKiller extends EntityMob implements IAnimatable {
             if (!this.world.isRemote && gasTimer % 10 == 0) {
                 applyGasDamage();
             }
-            if (gasTimer % 5 == 0) {
+            if (world.isRemote && gasTimer % 5 == 0) {
                 spawnGasParticles();
             }
 
