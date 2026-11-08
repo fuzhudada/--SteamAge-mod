@@ -322,7 +322,7 @@ public class EntityElephant extends EntityMob implements IAnimatable {
                 player.dropItem(new ItemStack(ModItems.ELEPHANT_TEETH,2), false);
             }
 
-            if (getRNG().nextDouble()<0.05 && !player.inventory.addItemStackToInventory(new ItemStack(ModItems.TOPAZ)))
+            if (getRNG().nextDouble()<0.1 && !player.inventory.addItemStackToInventory(new ItemStack(ModItems.TOPAZ)))
             {
                 player.dropItem(new ItemStack(ModItems.TOPAZ), false);
             }
@@ -334,7 +334,7 @@ public class EntityElephant extends EntityMob implements IAnimatable {
                 this.world.spawnEntity(entityItem);
             }
 
-            if(getRNG().nextDouble()<0.05){
+            if(getRNG().nextDouble()<0.1){
                 EntityItem entityItem1=new EntityItem(this.world);
                 entityItem1.setItem(new ItemStack(ModItems.TOPAZ));
                 entityItem1.setPosition(this.posX,this.posY,this.posZ);

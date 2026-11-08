@@ -701,7 +701,8 @@ public class ForgeHookHandler{
 
             //电场
             k=ModEnchantmentInit.GetCiTiaoLevel(H,ModEnchantmentInit.DIAN_CHANG);
-            if(k > 0 && !event.getSource().getDamageType().equals("electrical") && H.getDistanceSq(A)<256){
+            H.sendMessage(new TextComponentTranslation(event.getSource().getDamageType()));
+            if(k > 0 && !event.getSource().getDamageType().equals("electrical") && !event.getSource().getDamageType().equals("thorns") && H.getDistanceSq(A)<256){
                 List<EntityLivingBase> G = world.getEntities(EntityLightningCowHorn.class, e -> e.isEntityAlive()
                         && e.getDistanceSq(H)<256);
 
